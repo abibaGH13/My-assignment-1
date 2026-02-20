@@ -10,7 +10,7 @@
 
     /* Common css */
 .primary-button{
-
+    display: inline-block;
     width: 164px;
     height: 44px;
     font-size: 16px;
@@ -29,6 +29,7 @@ nav{
     padding: 16px 120px;
     width: 1600px;
     height: 92px;
+    background: var(--#FFFFFF, rgba(255, 255, 255, 1));
 }
 
 nav .logo{
@@ -42,4 +43,75 @@ ul.menu{
     gap: 32px;
     font-size: 16px;
     font-weight: 500;
+}
+.banner{
+    background: url("./B13-A01-Knowledge-Vault/assets/hero-bg.png");
+    height: 674px;
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.banner-content{
+    position: relative;
+    width: 1360px auto;
+    height: 380px;
+    margin: 115px 120px 180px 120px;
+    /* border: 1px solid white; */
+}
+.early-button{
+    height: 30px;
+    width: 175px;
+    font-size: 12px;
+    color: #30B868;
+    border-radius: 50px;
+    padding: 5px 15px;
+    margin-bottom: 16px
+}
+h1{
+    font-size:3.5rem ;
+    color: #FFFFFF;
+    gap: 16px;
+    padding-bottom: 20px;
+}
+span{
+    color: #30B868;
+}
+p{
+    font-size: 13px;
+    line-height: 24px;
+}
+.btn-grp{
+    display: inline-flex;
+    align-items: center;
+    padding-top: 32px;
+    gap: 16px;
+    font-size: 10px;
+
+}
+
+.btn-grp .primary-button{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    width: auto;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+} 
+.btn-grp .secondery-btn{
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    width: 164px auto;
+    height: 44px;
+    border: 1px solid white;
+    gap: 10px;
+    padding: 16px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    text-decoration: none;
+    box-sizing: border-box;
 }
