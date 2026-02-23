@@ -19,9 +19,9 @@
     border-radius: 4px;
     padding: 12x 16px;
     border: none;
-}
-/* origiinal css */
+} 
 
+ /* Navbar */
 nav{
     display: flex;
     justify-content: space-between;
@@ -44,6 +44,8 @@ ul.menu{
     font-size: 16px;
     font-weight: 500;
 }
+
+/* Bannner Section */
 .banner{
     background: url("./B13-A01-Knowledge-Vault/assets/hero-bg.png");
     height: 674px;
@@ -115,6 +117,8 @@ p{
     text-decoration: none;
     box-sizing: border-box;
 }
+
+/* Notes Section */
 .notes{
     text-align: center;
 }
@@ -128,13 +132,14 @@ p{
     padding-top: 16px;
 }
 
+/* Cards seection */
 .cards-section{
     width: 1360px;
     height: 300px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     margin: auto;
-    gap: 30px;
+    gap: 40px;
    
 }
 .cards{
@@ -176,4 +181,47 @@ p{
     line-height: 20px;
     width: 274px;
     text-align: center;
+}
+
+/* Solution secction */
+.solution-section{
+    width: 1360px;
+    height: 600px;
+    margin: 120px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+/* .solution-section img{
+    height: 600px;
+    width: 600px;
+    border-radius: 12px;
+} */
+ .solution-content h5{
+    color: #30B868;
+    font-size: 16px;
+ }
+ .solution-content h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 16px;
+ }
+ .solution-content p{
+    line-height: 20px;
+    margin-top: 16px;
+    color: #627382;
+ }
+ ul{
+    list-style: none;
+    margin-top: 40px;
+ }
+ ul li{
+    line-height: 22px;
+    font-size: 13px;
+}
+ul li img{
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+    margin-right: 3px;
 }
