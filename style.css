@@ -192,11 +192,6 @@ p{
     align-items: center;
     gap: 60px;
 }
-/* .solution-section img{
-    height: 600px;
-    width: 600px;
-    border-radius: 12px;
-} */
  .solution-content h5{
     color: #30B868;
     font-size: 16px;
@@ -224,4 +219,31 @@ ul li img{
     width: 14px;
     height: 14px;
     margin-right: 3px;
+}
+
+/* Early access section */
+.access-section{
+    width: 1360px;
+    height: 385px;
+    border-radius: 12px;
+    background-color: #F7F6F2;
+    margin: 120px;
+}
+.access-container{
+    padding:80px 40px;
+    text-align: center;
+}
+.access-container h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.access-container p{
+    font-size: 13px;
+    line-height: 22px;
+    color: #627382;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.access-container .primary-button img{
+    vertical-align: middle;
 }
