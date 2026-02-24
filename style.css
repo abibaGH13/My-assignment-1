@@ -35,10 +35,10 @@ nav{
     background: var(--#FFFFFF, rgba(255, 255, 255, 1));
 }
 
-nav .logo{
+/* nav .logo{
     width: 140px;
     height: 60px;
-} 
+}  */
 ul.menu{
     display: flex;
     justify-content:center ;
