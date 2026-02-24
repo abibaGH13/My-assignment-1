@@ -20,6 +20,9 @@
     padding: 12x 16px;
     border: none;
 } 
+.primary-button:hover{
+    cursor: pointer;
+}
 
  /* Navbar */
 nav{
@@ -38,11 +41,17 @@ nav .logo{
 } 
 ul.menu{
     display: flex;
+    justify-content:center ;
     list-style-type: none;
     text-decoration: none;
     gap: 32px;
     font-size: 16px;
     font-weight: 500;
+    padding-bottom: 34px;
+}
+.menu li a{
+    text-decoration:none ;
+    color: black;
 }
 
 /* Bannner Section */
@@ -247,3 +256,41 @@ ul li img{
 .access-container .primary-button img{
     vertical-align: middle;
 }
+
+/* Footer */
+footer{
+    background-color: #041f38;
+    width: 1600px;
+    height: 385px;
+}
+.foot-container{
+    padding: 120px 120px 30px;
+    color: #FFFFFF;
+    
+}
+.foot-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot-link h3{
+    font-size: 20px;
+    font-weight: 350;
+    padding-bottom: 16px;
+}
+.links{
+     display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.links img{
+    width: 18px;
+    height: 18px;
+}
+ small{
+    display: block;
+    text-align: center;
+    margin-top: 110px;
+    font-size: 16px;
+    font-weight: 250;
+ }
